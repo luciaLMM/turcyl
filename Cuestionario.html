@@ -1,0 +1,73 @@
+ 
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" >
+            <title> FORMULARIO DE REGISTRO </title>
+    </head>
+    <body> <!DOCTYPE html>
+ <html>
+ <body>
+ 
+ <h2>FORMULARIO DE REGISTRO </h2>
+ 
+ <form action="programa.php" method="GET">
+   <label for="nombre">Nombre:</label> 
+   <input type="text" id="nombre" name="nombre" maxlength="50" ><br> <br> 
+
+   <label for="apellidos">Apellidos:</label>
+   <input type="text" id="apellidos" name="apellidos" maxlength="50"><br><br>
+
+   <label for="contraseña">Contraseña:</label>
+  <input type="password" id="contraseña" name="contraseña"> <br> <br>
+
+  <label for=”sexo”>Sexo: </label>
+  <input type="radio" id="h" name="sexo" value="h">
+  <label for="Hombre">Hombre </label>
+  <input type="radio" id="m" name="sexo" value="m">
+  <label for="Mujer">Mujer</label><br><br>
+
+  <label for="correo">Correo :</label> 
+   <input type="text" id="correo" name="correo"><br> <br>
+
+   <label for="poblacion" id="poblacion">Poblacion:</label>
+
+<select name="provincia">
+    <optgroup label=Galicia>
+        <option value="L">Lugo</option>
+        <option value="P">Ponteverda</option>
+        <option value="C">La Coruña</option>
+        <option value="O">Orense</option>
+    </optgroup>
+    <optgroup label=CastillayLeón>
+     <option value="av">Avila</option>
+     <option value="bu">Burgos</option>
+       <option value="le">Leon</option>
+       <option value="pa">Palencia</option>
+       <option value="sg">Segovia</option>
+       <option value="so">Soria</option>
+       <option value="sa">Salamanca</option>
+       <option value="va">Valladolid</option>
+       <option value="za">Zamora</option>
+   </optgroup>
+   <optgroup label=Extremadura>
+    <option value="ba">Badajoz</option>
+    <option value="ca">Caceres</option>
+  </optgroup>
+</select>    
+<br> <br> Descripción:
+<textarea rows="7" cols="60" name="descripcion"></textarea><br>
+
+
+  <br> <br>  <input type="checkbox" id="novedades" name="novedades" value="novedades" checked>
+   <label for="novedades"> Deseo recibir información sobre novedades y ofertas</label><br>
+  <br>  <input type="checkbox" id="condiciones" name="condiciones" value="condiciones">
+   <label for="condiciones">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label><br>
+
+  <br> <br>  <input type="submit" value="Enviar">
+  <br> <br><br> <br><br> <br><br> <br>
+  <a href="index.html">Volver al sitio</a>
+
+ </form> 
+ </body>
+ </html>
